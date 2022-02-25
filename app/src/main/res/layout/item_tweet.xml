@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:background="#C4AAF3">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -23,6 +24,9 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        android:textStyle="bold"
         tools:text="SahSah" />
 
     <TextView
@@ -33,6 +37,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#FFFFFF"
         tools:text="This is my tweet!!" />
 
     <TextView
@@ -42,5 +47,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
         android:layout_toEndOf="@+id/tvScreenName"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
 </RelativeLayout>
